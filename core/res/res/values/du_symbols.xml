@@ -86,6 +86,7 @@
 
   <!-- Hardware key binding -->
   <java-symbol type="integer" name="config_deviceHardwareKeys" />
+  <java-symbol type="integer" name="config_deviceHardwareWakeKeys" />
 
   <!-- Notification icon/text dynamic tint -->
   <java-symbol type="bool" name="config_allowNotificationIconTextTinting" />
