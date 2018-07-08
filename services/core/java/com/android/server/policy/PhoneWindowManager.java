@@ -38,6 +38,12 @@ import static android.view.WindowManagerPolicy.WindowManagerFuncs.LID_ABSENT;
 import static android.view.WindowManagerPolicy.WindowManagerFuncs.LID_CLOSED;
 import static android.view.WindowManagerPolicy.WindowManagerFuncs.LID_OPEN;
 
+import static com.android.server.policy.HardkeyActionHandler.KEY_MASK_HOME;
+import static com.android.server.policy.HardkeyActionHandler.KEY_MASK_BACK;
+import static com.android.server.policy.HardkeyActionHandler.KEY_MASK_MENU;
+import static com.android.server.policy.HardkeyActionHandler.KEY_MASK_ASSIST;
+import static com.android.server.policy.HardkeyActionHandler.KEY_MASK_APP_SWITCH;
+
 import android.Manifest;
 import android.app.ActivityManager;
 import android.app.ActivityManager.StackId;
